@@ -1,0 +1,335 @@
+[
+  {
+    "path_slug": "path-2-red-team-fundamentals",
+    "path_name": "Red Team Fundamentals",
+    "module_slug": "2.2-toolkit-environment",
+    "module_name": "Pentesting Toolkit & Mühit",
+    "room_slug": "kali-linux-qurulumu",
+    "room_name": "Kali Linux Qurulumu",
+    "focus": "Kali Linux nədir, niyə pentesting üçün seçilir, VirtualBox/VMware üzərində qurulması, ilkin konfiqurasiya (update/upgrade), əsas qovluq strukturu."
+  },
+  {
+    "path_slug": "path-2-red-team-fundamentals",
+    "path_name": "Red Team Fundamentals",
+    "module_slug": "2.2-toolkit-environment",
+    "module_name": "Pentesting Toolkit & Mühit",
+    "room_slug": "esas-pentesting-aletleri",
+    "room_name": "Əsas Pentesting Alətlərinə Baxış",
+    "focus": "Nmap, Burp Suite, Metasploit, Wireshark, John the Ripper kimi alətlərin qısa tanıtımı — hər birinin hansı mərhələdə istifadə olunduğu, dərinə getmədən ümumi xəritə."
+  },
+  {
+    "path_slug": "path-2-red-team-fundamentals",
+    "path_name": "Red Team Fundamentals",
+    "module_slug": "2.2-toolkit-environment",
+    "module_name": "Pentesting Toolkit & Mühit",
+    "room_slug": "vpn-ile-laba-qosulma",
+    "room_name": "VPN ilə Lab-a Qoşulma",
+    "focus": "OpenVPN konfiqurasiyası, .ovpn faylının istifadəsi, lab mühitinə qoşulma addımları, tez-tez rast gəlinən qoşulma problemləri."
+  },
+  {
+    "path_slug": "path-2-red-team-fundamentals",
+    "path_name": "Red Team Fundamentals",
+    "module_slug": "2.3-recon-enumeration",
+    "module_name": "Recon & Enumeration",
+    "room_slug": "passiv-recon-osint",
+    "room_name": "Passiv Recon (OSINT Əsasları)",
+    "focus": "Passiv recon nədir, hədəflə birbaşa əlaqəyə girmədən məlumat toplama, Google Dorking, WHOIS, subdomain aşkarlama alətləri (crt.sh və s.)."
+  },
+  {
+    "path_slug": "path-2-red-team-fundamentals",
+    "path_name": "Red Team Fundamentals",
+    "module_slug": "2.3-recon-enumeration",
+    "module_name": "Recon & Enumeration",
+    "room_slug": "aktiv-recon-nmap",
+    "room_name": "Aktiv Recon — Nmap",
+    "focus": "Nmap-ın əsas skan növləri (SYN scan, TCP connect, UDP scan), port state-ləri (open/closed/filtered), əsas flag-lar (-sV, -sC, -A, -p-)."
+  },
+  {
+    "path_slug": "path-2-red-team-fundamentals",
+    "path_name": "Red Team Fundamentals",
+    "module_slug": "2.3-recon-enumeration",
+    "module_name": "Recon & Enumeration",
+    "room_slug": "servis-enumeration",
+    "room_name": "Servis Enumeration",
+    "focus": "Banner grabbing, versiya aşkarlama, açıq servislərdən (SMB, FTP, HTTP) əlavə məlumat çıxarma texnikaları."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.1-web-fundamentals",
+    "module_name": "Web Fundamentals",
+    "room_slug": "http-https-derinden",
+    "room_name": "HTTP/HTTPS Dərindən",
+    "focus": "HTTP request/response strukturu, metodlar (GET/POST/PUT/DELETE), header-lər, cookie/session, HTTPS-in TLS ilə necə işlədiyi."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.1-web-fundamentals",
+    "module_name": "Web Fundamentals",
+    "room_slug": "web-tetbiq-arxitekturasi",
+    "room_name": "Web Tətbiq Arxitekturası Əsasları",
+    "focus": "Frontend/backend/database ayrımı, client-server modeli, API-lərin rolu, tipik 3-qatlı arxitektura."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "sql-injection",
+    "room_name": "SQL Injection",
+    "focus": "SQLi-nin necə işlədiyi, in-band/blind/union-based növləri, sadə zəif kodda nümunə, niyə parametrized query həll yoludur."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "broken-authentication",
+    "room_name": "Broken Authentication",
+    "focus": "Zəif sessiya idarəetməsi, brute-force-a açıq login formaları, credential stuffing, MFA-nın rolu."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "xss",
+    "room_name": "Cross-Site Scripting (XSS)",
+    "focus": "Stored/Reflected/DOM-based XSS fərqləri, sadə payload nümunəsi (izah səviyyəsində), niyə input sanitization vacibdir."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "idor",
+    "room_name": "IDOR (Insecure Direct Object Reference)",
+    "focus": "IDOR-un tərifi, URL/parametr manipulyasiyası ilə başqasının məlumatına giriş nümunəsi, access control-un rolu."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "security-misconfiguration",
+    "room_name": "Security Misconfiguration",
+    "focus": "Default credential-lar, açıq debug rejimləri, lazımsız açıq servislər, düzgün konfiqurasiyanın vacibliyi."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "csrf",
+    "room_name": "CSRF",
+    "focus": "CSRF-in necə işlədiyi, istifadəçinin bilmədən icra etdiyi sorğu ssenarisi, CSRF token-in qorunma mexanizmi kimi rolu."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.2-owasp-top-10",
+    "module_name": "OWASP Top 10",
+    "room_slug": "file-upload-zeiflikleri",
+    "room_name": "File Upload Zəiflikləri",
+    "focus": "Fayl növü yoxlamasının bypass olunması, webshell yükləmə riski, düzgün fayl validasiyası prinsipləri."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.3-web-exploitation-tools",
+    "module_name": "Web Exploitation Alətləri",
+    "room_slug": "burp-suite-esaslari",
+    "room_name": "Burp Suite Əsasları",
+    "focus": "Burp Suite-in interfeysi, Proxy tab-ı, Intercept mexanizmi, Repeater-in sadə istifadəsi."
+  },
+  {
+    "path_slug": "path-3-web-app-hacking",
+    "path_name": "Web Application Hacking",
+    "module_slug": "3.3-web-exploitation-tools",
+    "module_name": "Web Exploitation Alətləri",
+    "room_slug": "avtomatlasdirilmis-skan-aletleri",
+    "room_name": "Avtomatlaşdırılmış Skan Alətləri",
+    "focus": "OWASP ZAP-ın əsas funksiyaları, avtomatik skanların üstünlükləri/məhdudiyyətləri, manual test ilə niyə birgə istifadə olunmalıdır."
+  },
+  {
+    "path_slug": "path-4-network-security",
+    "path_name": "Network & Infrastructure Security",
+    "module_slug": "4.1-network-exploitation",
+    "module_name": "Network Exploitation",
+    "room_slug": "umumi-servislerin-istismari",
+    "room_name": "Ümumi Servislərin İstismarı (FTP, SMB, SSH)",
+    "focus": "Anonymous FTP girişi, SMB null session, zəif SSH konfiqurasiyası kimi tipik zəifliklər, hər biri üçün konseptual nümunə."
+  },
+  {
+    "path_slug": "path-4-network-security",
+    "path_name": "Network & Infrastructure Security",
+    "module_slug": "4.1-network-exploitation",
+    "module_name": "Network Exploitation",
+    "room_slug": "metasploit-esaslari",
+    "room_name": "Metasploit Framework Əsasları",
+    "focus": "Metasploit-in strukturu (exploit/payload/auxiliary), msfconsole-un əsas komandaları, search/use/set/run axını konseptual səviyyədə."
+  },
+  {
+    "path_slug": "path-4-network-security",
+    "path_name": "Network & Infrastructure Security",
+    "module_slug": "4.2-vulnerability-assessment",
+    "module_name": "Vulnerability Assessment",
+    "room_slug": "zeiflik-skanlamasi",
+    "room_name": "Zəiflik Skanlaması (Nessus/OpenVAS)",
+    "focus": "Vulnerability scanner-lərin iş prinsipi, CVE/CVSS anlayışları, skan nəticələrinin oxunması."
+  },
+  {
+    "path_slug": "path-4-network-security",
+    "path_name": "Network & Infrastructure Security",
+    "module_slug": "4.2-vulnerability-assessment",
+    "module_name": "Vulnerability Assessment",
+    "room_slug": "manual-zeiflik-dogrulamasi",
+    "room_name": "Manual Zəiflik Doğrulaması",
+    "focus": "Avtomatik skanerin false positive verə bilməsi, niyə manual doğrulama vacibdir, sadə doğrulama metodologiyası."
+  },
+  {
+    "path_slug": "path-5-active-directory",
+    "path_name": "Active Directory Attacks",
+    "module_slug": "5.1-ad-fundamentals",
+    "module_name": "AD Fundamentals",
+    "room_slug": "ad-strukturu-komponentleri",
+    "room_name": "AD Strukturu & Komponentləri",
+    "focus": "Domain, Domain Controller, OU, Group Policy, Forest/Tree anlayışları, AD-nin kurumsal mühitdə rolu."
+  },
+  {
+    "path_slug": "path-5-active-directory",
+    "path_name": "Active Directory Attacks",
+    "module_slug": "5.1-ad-fundamentals",
+    "module_name": "AD Fundamentals",
+    "room_slug": "ad-enumeration",
+    "room_name": "AD Enumeration (BloodHound, PowerView)",
+    "focus": "BloodHound-un attack path vizuallaşdırması, PowerView ilə əsas enumeration komandaları (konseptual səviyyədə)."
+  },
+  {
+    "path_slug": "path-5-active-directory",
+    "path_name": "Active Directory Attacks",
+    "module_slug": "5.2-ad-attack-techniques",
+    "module_name": "AD Hücum Texnikaları",
+    "room_slug": "kerberoasting",
+    "room_name": "Kerberoasting",
+    "focus": "Kerberos autentifikasiyasının qısa izahı, service ticket-lərin necə tələb olunduğu, offline crack riski."
+  },
+  {
+    "path_slug": "path-5-active-directory",
+    "path_name": "Active Directory Attacks",
+    "module_slug": "5.2-ad-attack-techniques",
+    "module_name": "AD Hücum Texnikaları",
+    "room_slug": "pass-the-hash-ticket",
+    "room_name": "Pass-the-Hash / Pass-the-Ticket",
+    "focus": "Şifrəni bilmədən hash/ticket ilə autentifikasiya konsepti, niyə bu texnika bu qədər təhlükəlidir."
+  },
+  {
+    "path_slug": "path-5-active-directory",
+    "path_name": "Active Directory Attacks",
+    "module_slug": "5.2-ad-attack-techniques",
+    "module_name": "AD Hücum Texnikaları",
+    "room_slug": "ad-lateral-movement",
+    "room_name": "AD-də Lateral Movement",
+    "focus": "Bir sistemdən digərinə keçid konsepti, WMI/PsExec kimi üsulların qısa icmalı, niyə segmentasiya müdafiə tədbiridir."
+  },
+  {
+    "path_slug": "path-6-privilege-escalation",
+    "path_name": "Privilege Escalation",
+    "module_slug": "6.1-linux-privesc",
+    "module_name": "Linux PrivEsc",
+    "room_slug": "linux-privesc-esaslar",
+    "room_name": "Linux PrivEsc — Əsaslar",
+    "focus": "Privilege escalation-ın niyə vacib olduğu, SUID/SGID, kernel exploit, cron job kimi ümumi vector-ların icmalı."
+  },
+  {
+    "path_slug": "path-6-privilege-escalation",
+    "path_name": "Privilege Escalation",
+    "module_slug": "6.1-linux-privesc",
+    "module_name": "Linux PrivEsc",
+    "room_slug": "linux-privesc-praktiki",
+    "room_name": "Linux PrivEsc — Praktiki Texnikalar",
+    "focus": "sudo -l ilə icazə yoxlaması, yazıla bilən /etc/passwd, GTFOBins konsepti — konkret addım-addım nümunələr."
+  },
+  {
+    "path_slug": "path-6-privilege-escalation",
+    "path_name": "Privilege Escalation",
+    "module_slug": "6.2-windows-privesc",
+    "module_name": "Windows PrivEsc",
+    "room_slug": "windows-privesc-esaslar",
+    "room_name": "Windows PrivEsc — Əsaslar",
+    "focus": "Windows icazə modeli, service misconfiguration, unquoted service path, AlwaysInstallElevated kimi vector-ların icmalı."
+  },
+  {
+    "path_slug": "path-6-privilege-escalation",
+    "path_name": "Privilege Escalation",
+    "module_slug": "6.2-windows-privesc",
+    "module_name": "Windows PrivEsc",
+    "room_slug": "windows-privesc-praktiki",
+    "room_name": "Windows PrivEsc — Praktiki Texnikalar",
+    "focus": "WinPEAS konsepti, token impersonation qısa icmalı, konkret addım-addım nümunələr."
+  },
+  {
+    "path_slug": "path-7-post-exploitation",
+    "path_name": "Post-Exploitation & Advanced Red Team",
+    "module_slug": "7.1-post-exploitation",
+    "module_name": "Post-Exploitation",
+    "room_slug": "persistence",
+    "room_name": "Persistence (Girişi Saxlama)",
+    "focus": "Persistence-in məqsədi, cron job/scheduled task, startup entry kimi sadə üsulların konsepti."
+  },
+  {
+    "path_slug": "path-7-post-exploitation",
+    "path_name": "Post-Exploitation & Advanced Red Team",
+    "module_slug": "7.1-post-exploitation",
+    "module_name": "Post-Exploitation",
+    "room_slug": "data-exfiltration",
+    "room_name": "Data Exfiltration Əsasları",
+    "focus": "Məlumatın sistemdən çıxarılması üsulları (DNS tunneling, HTTP exfil) konseptual səviyyədə, aşkarlanma riskləri."
+  },
+  {
+    "path_slug": "path-7-post-exploitation",
+    "path_name": "Post-Exploitation & Advanced Red Team",
+    "module_slug": "7.2-c2",
+    "module_name": "Command & Control (C2)",
+    "room_slug": "c2-frameworklerine-giris",
+    "room_name": "C2 Framework-lərinə Giriş",
+    "focus": "C2-nin məqsədi, beacon/agent konsepti, məşhur framework-lərin (Cobalt Strike, Sliver) qısa icmalı."
+  },
+  {
+    "path_slug": "path-7-post-exploitation",
+    "path_name": "Post-Exploitation & Advanced Red Team",
+    "module_slug": "7.3-evasion",
+    "module_name": "Evasion",
+    "room_slug": "av-edr-evasion-esaslar",
+    "room_name": "AV/EDR Evasion Əsasları",
+    "focus": "Signature-based aşkarlamanın necə işlədiyi, obfuscation konsepti, evasion-un etik sərhədləri."
+  },
+  {
+    "path_slug": "path-8-reporting-capstone",
+    "path_name": "Reporting & Capstone",
+    "module_slug": "8.1-professional-reporting",
+    "module_name": "Professional Reporting",
+    "room_slug": "pentest-hesabati-yazmaq",
+    "room_name": "Pentest Hesabatı Yazmaq",
+    "focus": "Executive Summary, Technical Findings, Risk Rating, Remediation bölmələrinin strukturu, yaxşı hesabatın xüsusiyyətləri."
+  },
+  {
+    "path_slug": "path-8-reporting-capstone",
+    "path_name": "Reporting & Capstone",
+    "module_slug": "8.1-professional-reporting",
+    "module_name": "Professional Reporting",
+    "room_slug": "risk-qiymetlendirmesi-cvss",
+    "room_name": "Risk Qiymətləndirməsi (CVSS)",
+    "focus": "CVSS skorlama sisteminin əsas komponentləri (Attack Vector, Complexity, Impact), Critical/High/Medium/Low kateqoriyaları."
+  },
+  {
+    "path_slug": "path-8-reporting-capstone",
+    "path_name": "Reporting & Capstone",
+    "module_slug": "8.2-capstone",
+    "module_name": "Capstone",
+    "room_slug": "ucdan-uca-simulyasiya",
+    "room_name": "Tam Ssenari — Uçdan-uca Simulyasiya",
+    "focus": "Recon-dan reporting-ə qədər bütün mərhələləri birləşdirən yekun ssenari icmalı — bu room digərlərindən fərqli, daha çox tətbiq yönümlü olmalıdır."
+  }
+]
